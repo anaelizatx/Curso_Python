@@ -1,0 +1,12 @@
+#  a = input('Digite algo: ')
+#  print(f'O tipo primitivo desse valor eh: {type(a)}')
+#  print('So tem espacos?' , a.isspace())
+
+a = input('Digite algo: ')
+print(f'O tipo primitivo desse valor eh: {type(a)}')
+print(f'So tem espacos?{a.isspace()}')
+print(f'Eh um numero?{a.isnumeric()}')
+print(f'Eh alfabetico?{a.isalpha()}')
+print(f'Eh alfanumerico?{a.isalnum()}')
+print(f'Esta em maiusculas?{a.isupper()}')
+print(f'Esta em minusculas?{a.islower()}')
